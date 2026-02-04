@@ -1,7 +1,7 @@
 # DUCK VBA DLL — DuckDB in Excel/VBA (C/C++ DLL bridge)
 
 <p align="center">
-  <img src="DuckDB_VBA.png" alt="Duck VBA DLL" width="500">
+  <img src="images/DuckDB_VBA.png" alt="Duck VBA DLL" width="500">
 </p>
 
 > **Excel/VBA & Access: Upgraded with DuckDB**  
