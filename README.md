@@ -4,6 +4,8 @@
 > A **serverless, in-process** analytical SQL engine controlled from VBA, with fast paths **Array/Range ⇄ DuckDB**.
 
 
+![Duck VBA DLL](docs/images/DuckDB_VBA.png)
+
 ## Why this project?
 
 Excel/VBA is still unbeatable for the “last mile” (UI, validation, reporting), but it becomes slow and brittle as soon as you hit serious data workloads:
