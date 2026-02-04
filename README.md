@@ -1,11 +1,11 @@
 # DUCK VBA DLL — DuckDB in Excel/VBA (C/C++ DLL bridge + VBA toolkit)
 
-> **Excel/VBA & Access: Upgraded with DuckDB**  
-> A **serverless, in-process** analytical SQL engine controlled from VBA, with fast paths **Array/Range ⇄ DuckDB**.
-
 <p align="center">
   <img src="DuckDB_VBA.png" alt="Duck VBA DLL" width="500">
 </p>
+
+> **Excel/VBA & Access: Upgraded with DuckDB**  
+> A **serverless, in-process** analytical SQL engine controlled from VBA, with fast paths **Array/Range ⇄ DuckDB**.
 
 ## Why this project?
 
