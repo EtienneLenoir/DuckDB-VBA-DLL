@@ -17,8 +17,9 @@ Excel/VBA is still unbeatable for the “last mile” (UI, validation, reporting
 - ADO/ODBC friction at larger volumes,
 - MS Access is convenient but quickly caps out for modern data workflows.
 
-## Table of contents
-
+<details>
+<summary><b>Table of contents</b></summary>
+  
 - [Why this project?](#why-this-project)
 - [Highlights](#highlights)
 - [Requirements](#requirements)
@@ -42,6 +43,7 @@ Excel/VBA is still unbeatable for the “last mile” (UI, validation, reporting
 - [License](#license)
 - [Disclaimer](#disclaimer)
 - [Support / contributions](#support--contributions)
+</details>
 
 **DUCK VBA DLL** brings a modern OLAP engine (DuckDB) to VBA: JOIN/GROUP BY/CTE/WINDOW, columnar scans, vectorized execution, multi-threading, Parquet/JSON/CSV read & write… while keeping Excel as the front-end.
 
