@@ -10,16 +10,8 @@
 - 📘 **Documentation (PDF)**: [DuckVBA_documentation_FR.pdf](DuckVBA_documentation_FR.pdf?raw=1) 
 - 🧪 **Excel/VBA tutorial workbook (XLSM)**: [DuckDB_VBA_Tutorial_fr.xlsm](tutorial/DuckDB_VBA_Tutorial_fr.xlsm?raw=1)
 
-## Why this project?
-
-Excel/VBA is still unbeatable for the “last mile” (UI, validation, reporting), but it becomes slow and brittle as soon as you hit serious data workloads:
-- costly VBA loops,
-- ADO/ODBC friction at larger volumes,
-- MS Access is convenient but quickly caps out for modern data workflows.
-
 <details>
 <summary><b>Table of contents</b></summary>
-  
 - [Why this project?](#why-this-project)
 - [Highlights](#highlights)
 - [Requirements](#requirements)
@@ -45,8 +37,14 @@ Excel/VBA is still unbeatable for the “last mile” (UI, validation, reporting
 - [Support / contributions](#support--contributions)
 </details>
 
-**DUCK VBA DLL** brings a modern OLAP engine (DuckDB) to VBA: JOIN/GROUP BY/CTE/WINDOW, columnar scans, vectorized execution, multi-threading, Parquet/JSON/CSV read & write… while keeping Excel as the front-end.
+## Why this project?
 
+Excel/VBA is still unbeatable for the “last mile” (UI, validation, reporting), but it becomes slow and brittle as soon as you hit serious data workloads:
+- costly VBA loops,
+- ADO/ODBC friction at larger volumes,
+- MS Access is convenient but quickly caps out for modern data workflows.
+
+**DUCK VBA DLL** brings a modern OLAP engine (DuckDB) to VBA: JOIN/GROUP BY/CTE/WINDOW, columnar scans, vectorized execution, multi-threading, Parquet/JSON/CSV read & write… while keeping Excel as the front-end.
 
 ## Highlights
 
