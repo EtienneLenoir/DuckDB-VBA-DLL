@@ -7,6 +7,15 @@
 > **Excel/VBA & Access: Upgraded with DuckDB**  
 > A **serverless, in-process** analytical SQL engine controlled from VBA, with fast paths **Array/Range ⇄ DuckDB**.
 
+
++## Documentation & tutoriel (FR)
++
++- 📘 **Documentation (PDF)** : [DuckVBA_documentation_FR.pdf](DuckVBA_documentation_FR.pdf?raw=1) *(clic = téléchargement)*
++- 🧪 **Tutoriel Excel/VBA (xlsm)** : [DuckDB_VBA_Tutorial_fr.xlsm](tutorial/DuckDB_VBA_Tutorial_fr.xlsm?raw=1) *(clic = téléchargement)*
++
++> ⚠️ Le fichier `.xlsm` contient des macros VBA : n’active les macros que si tu fais confiance à la source.
++
+
 ## Why this project?
 
 Excel/VBA is still unbeatable for the “last mile” (UI, validation, reporting), but it becomes slow and brittle as soon as you hit serious data workloads:
