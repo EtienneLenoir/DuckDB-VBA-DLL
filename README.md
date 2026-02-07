@@ -50,10 +50,10 @@
 
 </details>
 
+<p align="center"><b>Architecture overview (DuckDB VBA)</b></p>
 <p align="center">
   <img src="docs/images/DuckDB_VBA_Schema.png" alt="DuckDB VBA Schema" width="490">
 </p>
-
 
 ## Why this project?
 
