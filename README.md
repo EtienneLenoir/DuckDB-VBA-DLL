@@ -1,7 +1,7 @@
 # DuckDB in Excel/VBA (C/C++ DLL bridge)
 
 <p align="center">
-  <img src="docs/images/DuckDB_VBA.png" alt="Duck VBA DLL" width="490">
+  <img src="docs/images/DuckDB_VBA.png" alt="Duck VBA DLL" width="450">
 </p>
 
 > **DuckDB in Excel/VBA — Boost VBA with an embedded OLAP engine (C/C++ DLL bridge)**  
