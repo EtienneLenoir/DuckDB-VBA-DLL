@@ -5,11 +5,17 @@
 </p>
 
 > **Excel/VBA & Access: Upgraded with DuckDB**  
-> A **serverless, in-process** analytical SQL engine controlled from VBA, with fast paths **Array/Range ⇄ DuckDB**.
+
+✅ Replace slow VBA loops / ADO bottlenecks  
+✅ Use DuckDB as a modern **MS Access alternative** (single portable `.duckdb` file)  
+✅ **Pandas-like analytics in VBA**: run fast SQL on an in-memory DuckDB (`:memory:`) — joins, group-bys, windows, CTEs  
+✅ Work with **Parquet / CSV / JSON** from VBA at high speed (read, transform, export)  
+✅ Ultra-fast **Range/Array ⇄ DuckDB** ingestion + upserts + dictionary lookups  
+✅ Easier integration with external databases (**SQL Server / PostgreSQL**) for hybrid workflows (import, join, report)
 
 - 📘 **Documentation (PDF)**: [DuckVBA_documentation_EN.pdf](DuckVBA_documentation_EN.pdf?raw=1) 
 - 🧪 **Excel/VBA tutorial workbook (XLSM)**: [DuckDB_VBA_Tutorial_fr.xlsm](tutorial/DuckDB_VBA_Tutorial_fr.xlsm?raw=1)
-
+- ➡️ **Download**: see **Releases** for a ready-to-run ZIP (DLLs + VBA modules + demo XLSM).
 <details>
   
 <summary><b>Table of contents</b></summary>
