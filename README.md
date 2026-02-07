@@ -15,7 +15,7 @@
 
 📖 **Documentation (PDF)**: [DuckVBA_documentation_EN.pdf](DuckVBA_documentation_EN.pdf?raw=1)  
 🧪 **Excel/VBA tutorial workbook (XLSM)**: [DuckDB_VBA_Tutorial_fr.xlsm](tutorial/DuckDB_VBA_Tutorial_fr.xlsm?raw=1)  
-➡️ **Download**: see **Releases** for a ready-to-run ZIP (DLLs + VB
+➡️ **Download**: see **Releases** for a ready-to-run ZIP (DLLs + VBA modules + demo XLSM).  
 
 <details>
   
