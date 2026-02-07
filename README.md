@@ -78,19 +78,17 @@ Excel/VBA is still unbeatable for the “last mile” (UI, validation, reporting
   - Access import (ADO/DLL) + optional nanoODBC route,
   - DuckDB extensions (miniplot, rapidfuzz, ui…).
 
-
-
 ## Requirements
 
 - Windows
 - **Excel 64-bit** (VBA7)
 - `duckdb.dll` (DuckDB runtime)
 - `duckdb_vba_bridge.dll` (bridge DLL)
-- Microsoft Visual C++ Redistributable (often already installed; otherwise `vcruntime140*.dll`, `msvcp140.dll`)
-
+- **Microsoft Visual C++ Redistributable 2015–2022 (x64)**  
+  (often already installed with common apps like Office/Teams/Visual Studio.  
+  If Excel can’t load the DLLs or you see missing `vcruntime140*.dll` / `msvcp140.dll`, install it:  
+  https://aka.ms/vc14/vc_redist.x64.exe)
 > ⚠️ After downloading/copying: right-click `duckdb.dll` and `duckdb_vba_bridge.dll` → **Properties** → **Unblock** (otherwise Excel may refuse to load them).
-
-
 
 ## Quick install (VBA)
 
