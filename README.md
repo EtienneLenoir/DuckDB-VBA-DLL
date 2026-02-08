@@ -105,31 +105,36 @@ Excel/VBA is still unbeatable for the “last mile” (UI, validation, reporting
 3) Minimal example:
 
 ```vb
-Option Explicit
-
 Sub Quickstart_DuckVba()
 
-    Dim db As New cDuck
-    db.Init ThisWorkbook.Path          ' folder where the DLLs live
-    db.OpenDuckDb ":memory:"           ' or ThisWorkbook.Path & "\cache.duckdb"
+    Dim db As New cDuck,v As Variant
 
+    ' 1) Init (où se trouvent les DLL)
+    db.Init ThisWorkbook.Path
+    db.ErrorMode = 2  '2=LogOnly (debug via duckdb_errors.log), 1=MsgBox, 0=Raise
+
+    ' 2) Choisis ton mode :
+    db.OpenDuckDb ":memory:"                            'RAM (ultra rapide)
+    'db.OpenDuckDb ThisWorkbook.Path & "\cache.duckdb"   'fichier persistant
+    'db.OpenReadOnly ThisWorkbook.Path & "\cache.duckdb" 'lecture seule
+
+    ' 3) SQL analytics (DDL/DML)
     db.Exec "CREATE TABLE t(id INT, name TEXT);"
     db.Exec "INSERT INTO t VALUES (1,'Duck'),(2,'VBA');"
 
-    Dim v As Variant
+    ' 4) SELECT -> Variant(2D) (ligne 1 = headers)
     v = db.QueryFast("SELECT * FROM t ORDER BY id;")
 
-    ' Paste into active sheet (A1)
+    ' 5) Paste dans Excel
     If Not IsEmpty(v) Then
-        ActiveSheet.Range("A1").Resize(UBound(v, 1), UBound(v, 2)).Value = v
+        ActiveSheet.Range("A1").Resize(UBound(v, 1), UBound(v, 2)).Value2 = v
     End If
 
+CleanExit:
+    On Error Resume Next
     db.CloseDuckDb
-
 End Sub
 ```
-
-
 
 ## Connections: file, memory, read-only
 
