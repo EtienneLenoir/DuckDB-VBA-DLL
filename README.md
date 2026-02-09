@@ -12,6 +12,7 @@
 - ✅ Work with **Parquet / CSV / JSON** from VBA at high speed (read, transform, export)
 - ✅ Ultra-fast **Range/Array ⇄ DuckDB** ingestion + upserts + dictionary lookups
 - ✅ Easier integration with external databases (**SQL Server / PostgreSQL**) for hybrid workflows (import, join, report)
+- ✅ **Access → DuckDB migration** helpers (e.g. `AppendAdoRecordsetFast`) for quick conversion of legacy .mdb/.accdb data
 
 ---
 
