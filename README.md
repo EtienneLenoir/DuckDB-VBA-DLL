@@ -1,4 +1,4 @@
-# DuckDB in Excel/VBA (C/C++ DLL bridge)
+# DuckDB for Excel/VBA – Native DuckDB C API Integration
 
 <p align="center">
   <img src="docs/images/DuckDB_VBA.png" alt="Duck VBA DLL" width="450">
