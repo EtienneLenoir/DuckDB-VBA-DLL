@@ -4,18 +4,19 @@
   <img src="docs/images/DuckDB_VBA.png" alt="Duck VBA DLL" width="450">
 </p>
 
-> **DuckDB for Excel/VBA using the native DuckDB C API via a lightweight DLL bridge, Boost VBA with an embedded OLAP engine**
+> **Boost Excel/VBA with an embedded DuckDB OLAP engine, powered by the native DuckDB C API through a lightweight DLL bridge.**
 
 No ODBC setup. No external server. Just a lightweight DLL bridge that turns Excel into a fast local analytics front-end.
 
 Compared with traditional VBA loops or ADO/ODBC-style workflows, the native bridge can deliver **up to 5× faster performance** for typical Range/Array ⇄ DuckDB ingestion and query pipelines.
- 
-- ✅ Replace slow VBA loops / ADO bottlenecks
-- ✅ Use DuckDB as a modern **MS Access alternative** (single portable `.duckdb` file)
+
+- ✅ **No ODBC installation required** — direct native DuckDB C API integration
 - ✅ **Pandas-like analytics in VBA**: run fast SQL on an in-memory DuckDB (`:memory:`)
 - ✅ Work with **Parquet / CSV / JSON** from VBA at high speed (read, transform, export)
 - ✅ Ultra-fast **Range/Array ⇄ DuckDB** ingestion + upserts + dictionary lookups
 - ✅ Easier integration with external databases (**SQL Server / PostgreSQL/SQLite**)
+- ✅ Replace slow VBA loops / ADO bottlenecks
+- ✅ Use DuckDB as a modern **MS Access alternative** (single portable `.duckdb` file)
 - ✅ **Access → DuckDB migration** helpers (e.g. `AppendAdoRecordsetFast`) for quick conversion of legacy .mdb/.accdb data
 
 ---
