@@ -5,7 +5,9 @@
 </p>
 
 > **DuckDB for Excel/VBA using the native DuckDB C API via a lightweight DLL bridge, Boost VBA with an embedded OLAP engine**
+
 > No ODBC setup. No external server. Just a lightweight DLL bridge that turns Excel into a fast local analytics front-end.
+
 > Compared with traditional VBA loops or ADO/ODBC-style workflows, the native bridge can deliver **up to 5× faster performance** for typical Range/Array ⇄ DuckDB ingestion and query pipelines.
  
 - ✅ Replace slow VBA loops / ADO bottlenecks
