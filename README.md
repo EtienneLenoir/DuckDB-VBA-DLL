@@ -1,7 +1,7 @@
 # duckdb-vba
 
 <p align="center">
-  <img src="docs/images/DuckDB_VBA.png" alt="Duck VBA DLL" width="450">
+  <img src="docs/images/DuckDB_VBA.png" alt="Duck VBA DLL" width="430">
 </p>
 
 > **Boost Excel/VBA with an embedded DuckDB OLAP engine, powered by the native DuckDB C API through a lightweight DLL bridge.**
